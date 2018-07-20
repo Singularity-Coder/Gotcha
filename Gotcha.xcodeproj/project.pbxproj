@@ -12,6 +12,12 @@
 		F242E4A22101C67500FD9C17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F242E4A02101C67500FD9C17 /* Main.storyboard */; };
 		F242E4A42101C67700FD9C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F242E4A32101C67700FD9C17 /* Assets.xcassets */; };
 		F242E4A72101C67700FD9C17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F242E4A52101C67700FD9C17 /* LaunchScreen.storyboard */; };
+		F242E4B62101DD5700FD9C17 /* kamehameha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F242E4B02101DD5600FD9C17 /* kamehameha.mp3 */; };
+		F242E4B72101DD5700FD9C17 /* chicken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F242E4B12101DD5600FD9C17 /* chicken.mp3 */; };
+		F242E4B82101DD5700FD9C17 /* fart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F242E4B22101DD5600FD9C17 /* fart.mp3 */; };
+		F242E4B92101DD5700FD9C17 /* stupid.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F242E4B32101DD5600FD9C17 /* stupid.mp3 */; };
+		F242E4BA2101DD5700FD9C17 /* applause.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F242E4B42101DD5600FD9C17 /* applause.mp3 */; };
+		F242E4BB2101DD5700FD9C17 /* evil.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F242E4B52101DD5700FD9C17 /* evil.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		F242E4A32101C67700FD9C17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F242E4A62101C67700FD9C17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F242E4A82101C67700FD9C17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F242E4B02101DD5600FD9C17 /* kamehameha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kamehameha.mp3; sourceTree = "<group>"; };
+		F242E4B12101DD5600FD9C17 /* chicken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chicken.mp3; sourceTree = "<group>"; };
+		F242E4B22101DD5600FD9C17 /* fart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fart.mp3; sourceTree = "<group>"; };
+		F242E4B32101DD5600FD9C17 /* stupid.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stupid.mp3; sourceTree = "<group>"; };
+		F242E4B42101DD5600FD9C17 /* applause.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = applause.mp3; sourceTree = "<group>"; };
+		F242E4B52101DD5700FD9C17 /* evil.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = evil.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				F242E4A32101C67700FD9C17 /* Assets.xcassets */,
 				F242E4A52101C67700FD9C17 /* LaunchScreen.storyboard */,
 				F242E4A82101C67700FD9C17 /* Info.plist */,
+				F242E4B42101DD5600FD9C17 /* applause.mp3 */,
+				F242E4B12101DD5600FD9C17 /* chicken.mp3 */,
+				F242E4B52101DD5700FD9C17 /* evil.mp3 */,
+				F242E4B22101DD5600FD9C17 /* fart.mp3 */,
+				F242E4B02101DD5600FD9C17 /* kamehameha.mp3 */,
+				F242E4B32101DD5600FD9C17 /* stupid.mp3 */,
 			);
 			path = Gotcha;
 			sourceTree = "<group>";
@@ -124,7 +142,13 @@
 			files = (
 				F242E4A72101C67700FD9C17 /* LaunchScreen.storyboard in Resources */,
 				F242E4A42101C67700FD9C17 /* Assets.xcassets in Resources */,
+				F242E4BB2101DD5700FD9C17 /* evil.mp3 in Resources */,
+				F242E4B92101DD5700FD9C17 /* stupid.mp3 in Resources */,
+				F242E4B62101DD5700FD9C17 /* kamehameha.mp3 in Resources */,
 				F242E4A22101C67500FD9C17 /* Main.storyboard in Resources */,
+				F242E4BA2101DD5700FD9C17 /* applause.mp3 in Resources */,
+				F242E4B72101DD5700FD9C17 /* chicken.mp3 in Resources */,
+				F242E4B82101DD5700FD9C17 /* fart.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
