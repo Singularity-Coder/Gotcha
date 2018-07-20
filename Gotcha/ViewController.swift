@@ -50,7 +50,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func chicken(_ sender: UIButton) {
-        playFunction(sound: "chicken", fileType: "mp3")
+        playFunction(sound: "chicken", fileType: "mp")
     }
     
     func playFunction(sound: String, fileType: String) {
