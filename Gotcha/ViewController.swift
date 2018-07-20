@@ -30,22 +30,27 @@ class ViewController: UIViewController {
     }
     
     @IBAction func fart(_ sender: UIButton) {
-        
+        playFunction(sound: "fart", fileType: "mp3")
     }
     
     @IBAction func evil(_ sender: UIButton) {
+        playFunction(sound: "evil", fileType: "mp3")
     }
     
     @IBAction func praise(_ sender: UIButton) {
+        playFunction(sound: "applause", fileType: "mp3")
     }
     
     @IBAction func donkey(_ sender: UIButton) {
+        playFunction(sound: "stupid", fileType: "mp3")
     }
     
     @IBAction func kamehameha(_ sender: UIButton) {
+        playFunction(sound: "kamehameha", fileType: "mp3")
     }
     
     @IBAction func chicken(_ sender: UIButton) {
+        playFunction(sound: "chicken", fileType: "mp3")
     }
     
     func playFunction(sound: String, fileType: String) {
