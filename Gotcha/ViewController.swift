@@ -21,35 +21,35 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        fartLabel.layer.cornerRadius = 25
-        gotchaLabel.layer.cornerRadius = 25
-        awkwardLabel.layer.cornerRadius = 25
-        lolLabel.layer.cornerRadius = 25
-        trumpertsLabel.layer.cornerRadius = 25
-        drumRollLabel.layer.cornerRadius = 25
+        fartLabel.layer.cornerRadius = 40
+        gotchaLabel.layer.cornerRadius = 40
+        awkwardLabel.layer.cornerRadius = 40
+        lolLabel.layer.cornerRadius = 40
+        trumpertsLabel.layer.cornerRadius = 40
+        drumRollLabel.layer.cornerRadius = 40
     }
     
     @IBAction func fart(_ sender: UIButton) {
         
     }
     
-    @IBAction func gotcha(_ sender: UIButton) {
+    @IBAction func evil(_ sender: UIButton) {
     }
     
-    @IBAction func awkward(_ sender: UIButton) {
+    @IBAction func praise(_ sender: UIButton) {
     }
     
-    @IBAction func lol(_ sender: UIButton) {
+    @IBAction func donkey(_ sender: UIButton) {
     }
     
-    @IBAction func trumpets(_ sender: UIButton) {
+    @IBAction func kamehameha(_ sender: UIButton) {
     }
     
-    @IBAction func drumRoll(_ sender: UIButton) {
+    @IBAction func chicken(_ sender: UIButton) {
     }
     
-    func playFunction(sound: String, type: String) {
-        let path = Bundle.main.path(forResource: sound, ofType: type)!
+    func playFunction(sound: String, fileType: String) {
+        let path = Bundle.main.path(forResource: sound, ofType: fileType)!
         let url = URL(fileURLWithPath: path)
         do {
             player = try AVAudioPlayer(contentsOf: url)
