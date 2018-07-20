@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Gotcha" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gotcha!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TjA-lw-Ebg">
+                                <rect key="frame" x="0.0" y="59" width="375" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="bqY-cA-G1R"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="47"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ExL-ol-MhZ">
+                                <rect key="frame" x="10" y="215.66666666666669" width="355" height="547.33333333333326"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ULL-bh-ze9">
+                                        <rect key="frame" x="0.0" y="0.0" width="355" height="83"/>
+                                        <color key="backgroundColor" red="0.90474302030456855" green="0.8917549060242792" blue="0.0057139940345999505" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="31"/>
+                                        <state key="normal" title="When u want to irritate ur friend">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="fart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HWQ-jZ-gYy"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6wC-Bf-exw">
+                                        <rect key="frame" x="0.0" y="93.000000000000028" width="355" height="82.666666666666657"/>
+                                        <color key="backgroundColor" red="0.90474302030456855" green="0.8917549060242792" blue="0.0057139940345999505" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="31"/>
+                                        <state key="normal" title="When someone is trying to trick u">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="gotcha:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dHy-2e-etj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1SQ-ac-A1A">
+                                        <rect key="frame" x="0.0" y="185.66666666666666" width="355" height="82.999999999999972"/>
+                                        <color key="backgroundColor" red="0.90474302030456855" green="0.8917549060242792" blue="0.0057139940345999505" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="31"/>
+                                        <state key="normal" title="When u responded unnecessarily">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="awkward:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bM7-4s-BvM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" semanticContentAttribute="playback" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hg2-CV-fN2">
+                                        <rect key="frame" x="0.0" y="278.66666666666663" width="355" height="83"/>
+                                        <color key="backgroundColor" red="0.90474302030456855" green="0.8917549060242792" blue="0.0057139940345999505" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="31"/>
+                                        <state key="normal" title="When they do something stupid">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="lol:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X3C-0z-RBZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xiF-9m-mhz">
+                                        <rect key="frame" x="0.0" y="371.66666666666674" width="355" height="82.666666666666686"/>
+                                        <color key="backgroundColor" red="0.90474302030456855" green="0.8917549060242792" blue="0.0057139940345999505" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="31"/>
+                                        <state key="normal" title="Declare Victory with Trumpets">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="trumpets:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HGU-xR-7XN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ONm-6g-SmH">
+                                        <rect key="frame" x="0.0" y="464.33333333333337" width="355" height="83"/>
+                                        <color key="backgroundColor" red="0.90474302030456855" green="0.8917549060242792" blue="0.0057139940345999505" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="31"/>
+                                        <state key="normal" title="Grand Drum Roll Enterence">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="drumRoll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tmX-uu-cMW"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A sound for every moment. Express better with these sounds!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LYz-vO-Hbq">
+                                <rect key="frame" x="10" y="124" width="355" height="81.666666666666686"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="81.670000000000002" id="r9s-wf-wPQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="LYz-vO-Hbq" firstAttribute="top" secondItem="TjA-lw-Ebg" secondAttribute="bottom" constant="10" id="6Tq-x4-mhE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ExL-ol-MhZ" secondAttribute="trailing" constant="10" id="8yj-1U-MsR"/>
+                            <constraint firstItem="TjA-lw-Ebg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="BXR-pw-KLo"/>
+                            <constraint firstItem="ExL-ol-MhZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="LVM-bm-ihg"/>
+                            <constraint firstItem="TjA-lw-Ebg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="RVI-CB-qfB"/>
+                            <constraint firstAttribute="trailing" secondItem="LYz-vO-Hbq" secondAttribute="trailing" constant="10" id="UBp-IJ-bDf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TjA-lw-Ebg" secondAttribute="trailing" id="UOg-KJ-XSI"/>
+                            <constraint firstItem="ExL-ol-MhZ" firstAttribute="top" secondItem="LYz-vO-Hbq" secondAttribute="bottom" constant="10" id="ao1-DN-28q"/>
+                            <constraint firstItem="LYz-vO-Hbq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="cII-NW-bLZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ExL-ol-MhZ" secondAttribute="bottom" constant="15" id="eq6-hT-X2G"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ExL-ol-MhZ" secondAttribute="trailing" constant="10" id="nn3-4H-mHh"/>
+                            <constraint firstItem="ExL-ol-MhZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="tbH-C7-djy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="awkwardLabel" destination="1SQ-ac-A1A" id="e3Z-Yg-IHu"/>
+                        <outlet property="drumRollLabel" destination="ONm-6g-SmH" id="vL9-Hf-6dK"/>
+                        <outlet property="fartLabel" destination="ULL-bh-ze9" id="Z7g-j3-47m"/>
+                        <outlet property="gotchaLabel" destination="6wC-Bf-exw" id="CJw-B2-aMZ"/>
+                        <outlet property="lolLabel" destination="Hg2-CV-fN2" id="CWp-QS-W7G"/>
+                        <outlet property="trumpertsLabel" destination="xiF-9m-mhz" id="m4l-cD-erp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-172" y="136.69950738916256"/>
+        </scene>
+    </scenes>
+</document>
